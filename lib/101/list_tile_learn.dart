@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learn_01/core/random_image.dart';
 
 class ListTileLearn extends StatelessWidget {
   const ListTileLearn({super.key});
 
   final String title = 'Money';
   final String subtitle = 'How much';
+  
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ class ListTileLearn extends StatelessWidget {
         children: [
           Card(
             child: ListTile(
-              title: Text(title),
+              title: RandomImage(),
               subtitle: Text(subtitle),
               leading: Icon(Icons.money),
               trailing: Icon(Icons.chevron_right),
