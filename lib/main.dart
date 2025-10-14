@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_learn_01/101/textfield_learn.dart';
+import 'package:flutter_learn_01/demos/color_lifecycle_demo_view.dart';
 
 void main() {
   runApp(const MainApp());
@@ -26,7 +26,7 @@ class MainApp extends StatelessWidget {
           backgroundColor: Colors.blue,
         )
       ),
-      home: TextfieldLearn(),
+      home: ColorLifecycleDemoView(),
     );
   }
 }

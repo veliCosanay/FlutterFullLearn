@@ -23,7 +23,7 @@ class _TextfieldLearnState extends State<TextfieldLearn> {
                 border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(20))),
                 prefixIcon: Icon(Icons.mail),
                 labelText: 'Mail',
-                
+                 
               ),
             )
          ]
