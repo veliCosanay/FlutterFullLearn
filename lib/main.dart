@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_learn_01/101/navigation_learn.dart';
+import 'package:flutter_learn_01/202/model_learn_view.dart';
 
 void main() {
   runApp(const MainApp());
@@ -26,7 +26,7 @@ class MainApp extends StatelessWidget {
           backgroundColor: Colors.blue,
         )
       ),
-      home: NavigationLearn(),
+      home: ModelLearnView(),
     );
   }
 }
